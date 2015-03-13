@@ -96,7 +96,7 @@ public class DeviceView extends Fragment {
 
 	public static DeviceView mInstance = null;
 	//yavari
-	private final double accTh = 2.4;
+	private final double accTh = 5;//2.4
 	private final long elapsedtimeTh = 1000000000;
 	final int scale = 10;
 	private long elapsedtime;
@@ -192,7 +192,7 @@ public class DeviceView extends Fragment {
 
 		// Notify activity that UI has been inflated
 		mActivity.onViewInflated(view);
-
+		starttime = 2*System.nanoTime();
 		return view;
 	}
 

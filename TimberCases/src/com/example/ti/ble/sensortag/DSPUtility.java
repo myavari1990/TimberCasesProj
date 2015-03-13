@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DSPUtility {
-	final Double ALPHA = 0.2;
+	final Double ALPHA = 0.4;
 	private List<Double> rawData = new ArrayList<Double>();
 	private List<Double> filteredData = new ArrayList<Double>();
 	private List<Double> lowFilteredData = new ArrayList<Double>();
